@@ -33,7 +33,7 @@
 				<key>FixAirport</key>
 				<false/>
 				<key>FixDarwin</key>
-				<false/>
+				<true/>
 				<key>FixDarwin7</key>
 				<true/>
 				<key>FixDisplay</key>
@@ -57,13 +57,13 @@
 				<key>FixRTC</key>
 				<true/>
 				<key>FixRegions</key>
-				<false/>
+				<true/>
 				<key>FixS3D</key>
 				<false/>
 				<key>FixSATA</key>
 				<false/>
 				<key>FixSBUS</key>
-				<false/>
+				<true/>
 				<key>FixShutdown</key>
 				<false/>
 				<key>FixTMR</key>
@@ -142,27 +142,27 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 darkwake=0 nvda_drv=1 alcid=1 npci=0x2000 rootless=0 kext-dev-mode=1</string>
+		<string>npci=0x2000 dart=0 nvda_drv=1 kext-dev-mode=1 rootless=0 alcid=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
 		<string>Hackintosh HD</string>
 		<key>DisableCloverHotkeys</key>
-		<false/>
+		<true/>
 		<key>Fast</key>
 		<true/>
 		<key>HibernationFixup</key>
-		<false/>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverDoRecovery</key>
-		<true/>
+		<false/>
 		<key>NeverHibernate</key>
 		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>SignatureFixup</key>
-		<false/>
+		<true/>
 		<key>SkipHibernateTimeout</key>
 		<false/>
 		<key>StrictHibernate</key>
@@ -191,18 +191,16 @@
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>ResetHDA</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>LANInjection</key>
-		<false/>
 		<key>NoDefaultProperties</key>
 		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<false/>
+			<true/>
 			<key>FixOwnership</key>
-			<false/>
+			<true/>
 			<key>HighCurrent</key>
 			<true/>
 			<key>Inject</key>
