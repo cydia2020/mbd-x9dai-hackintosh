@@ -1,0 +1,96 @@
+3:996  2:655  Found UEFI Acpi 2.0 RSDP at 7E202000
+3:996  0:000  Saving ACPI tables from RSDP 7E202000 to EFI\CLOVER\ACPI\origin ...
+3:996  0:000   7E202000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:002  0:005    (Xsdt: 7E202098, Rsdt: 7E202028)
+4:002  0:000    7E202098: 'XSDT', 'A M I', Rev: 1, Len: 172 -> XSDT.aml
+4:004  0:002    7E202028: 'RSDT', 'A M I', Rev: 1, Len: 104 -> RSDT.aml
+4:007  0:002    Tables in Xsdt: 17
+4:007  0:000    0. 7E20F268: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+4:010  0:002        (Dsdt: 7E2021D8, Facs: 7E2E2080, XDsdt: 7E2021D8, XFacs: 0)
+4:010  0:000        7E2021D8: 'DSDT', 'A M I', Rev: 2, Len: 53392 -> DSDT.aml
+4:017  0:006        7E2E2080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+4:020  0:002    1. 7E20F378: 'APIC', 'A M I', Rev: 3, Len: 548 -> APIC.aml
+4:022  0:002    2. 7E20F5A0: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+4:027  0:004    3. 7E20F5E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60 -> MCFG.aml
+4:030  0:002    4. 7E20F628: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1200 -> SRAT.aml
+4:033  0:002    5. 7E20FAD8: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48 -> SLIT.aml
+4:036  0:002    6. 7E20FB08: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+4:038  0:002    7. 7E20FB40: 'UEFI', 'RstScuO', Rev: 1, Len: 298 -> UEFI.aml
+4:041  0:002    8. 7E20FC70: 'PRAD', 'PRADTID', Rev: 2, Len: 190 -> PRAD.aml
+4:044  0:002    9. 7E20FD30: 'SSDT', 'CpuPm', Rev: 2, Len: 855216 -> SSDT-0-CpuPm.aml
+4:110  0:066    10. 7E2E09E0: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+4:113  0:002    11. 7E2E0A18: 'UEFI', 'RstScuV', Rev: 1, Len: 92 -> UEFI.aml
+4:118  0:004    12. 7E2E0A78: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304 -> EINJ.aml
+4:120  0:002    13. 7E2E0BA8: 'ERST', 'AMI ERST', Rev: 1, Len: 560 -> ERST.aml
+4:123  0:002    14. 7E2E0DD8: 'HEST', 'AMI HEST', Rev: 1, Len: 168 -> HEST.aml
+4:126  0:002    15. 7E2E0E80: 'BERT', 'AMI BERT', Rev: 1, Len: 48 -> BERT.aml
+4:129  0:002    16. 7E2E0EB0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 360 -> DMAR.aml
+4:131  0:002    Tables in Rsdt: 17
+4:131  0:000    0. 7E202150: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+4:134  0:002        (Dsdt: 7E2021D8, Facs: 7E2E2040)
+4:134  0:000        7E2021D8: 'DSDT', 'A M I', Rev: 2, Len: 53392
+4:136  0:002        7E2E2040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+4:141  0:004    1. 7E20F378: 'APIC', 'A M I', Rev: 3, Len: 548
+4:141  0:000    2. 7E20F5A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:141  0:000    3. 7E20F5E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+4:141  0:000    4. 7E20F628: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1200
+4:141  0:000    5. 7E20FAD8: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48
+4:141  0:000    6. 7E20FB08: 'HPET', 'A M I', Rev: 1, Len: 56
+4:141  0:000    7. 7E20FB40: 'UEFI', 'RstScuO', Rev: 1, Len: 298
+4:141  0:000    8. 7E20FC70: 'PRAD', 'PRADTID', Rev: 2, Len: 190
+4:141  0:000    9. 7E20FD30: 'SSDT', 'CpuPm', Rev: 2, Len: 855216
+4:141  0:000    10. 7E2E09E0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:141  0:000    11. 7E2E0A18: 'UEFI', 'RstScuV', Rev: 1, Len: 92
+4:141  0:000    12. 7E2E0A78: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+4:141  0:000    13. 7E2E0BA8: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+4:141  0:000    14. 7E2E0DD8: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+4:141  0:000    15. 7E2E0E80: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+4:141  0:000    16. 7E2E0EB0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 360
+4:141  0:000  Found UEFI Acpi 1.0 RSDP at 7E202000
+4:141  0:000  Printing ACPI tables from RSDP 7E202000 ...
+4:141  0:000   7E202000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:141  0:000    (Xsdt: 7E202098, Rsdt: 7E202028)
+4:141  0:000    7E202098: 'XSDT', 'A M I', Rev: 1, Len: 172
+4:141  0:000    7E202028: 'RSDT', 'A M I', Rev: 1, Len: 104
+4:141  0:000    Tables in Xsdt: 17
+4:141  0:000    0. 7E20F268: 'FACP', 'A M I', Rev: 5, Len: 268
+4:141  0:000        (Dsdt: 7E2021D8, Facs: 7E2E2080, XDsdt: 7E2021D8, XFacs: 0)
+4:141  0:000        7E2021D8: 'DSDT', 'A M I', Rev: 2, Len: 53392
+4:143  0:001        7E2E2080: 'FACS', Ver: 2, Len: 64
+4:143  0:000    1. 7E20F378: 'APIC', 'A M I', Rev: 3, Len: 548
+4:143  0:000    2. 7E20F5A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:143  0:000    3. 7E20F5E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+4:143  0:000    4. 7E20F628: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1200
+4:143  0:000    5. 7E20FAD8: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48
+4:143  0:000    6. 7E20FB08: 'HPET', 'A M I', Rev: 1, Len: 56
+4:143  0:000    7. 7E20FB40: 'UEFI', 'RstScuO', Rev: 1, Len: 298
+4:143  0:000    8. 7E20FC70: 'PRAD', 'PRADTID', Rev: 2, Len: 190
+4:143  0:000    9. 7E20FD30: 'SSDT', 'CpuPm', Rev: 2, Len: 855216
+4:143  0:000    10. 7E2E09E0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:143  0:000    11. 7E2E0A18: 'UEFI', 'RstScuV', Rev: 1, Len: 92
+4:143  0:000    12. 7E2E0A78: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+4:143  0:000    13. 7E2E0BA8: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+4:143  0:000    14. 7E2E0DD8: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+4:143  0:000    15. 7E2E0E80: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+4:143  0:000    16. 7E2E0EB0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 360
+4:143  0:000    Tables in Rsdt: 17
+4:143  0:000    0. 7E202150: 'FACP', 'A M I', Rev: 2, Len: 132
+4:143  0:000        (Dsdt: 7E2021D8, Facs: 7E2E2040)
+4:143  0:000        7E2021D8: 'DSDT', 'A M I', Rev: 2, Len: 53392
+4:145  0:001        7E2E2040: 'FACS', Ver: 0, Len: 64
+4:145  0:000    1. 7E20F378: 'APIC', 'A M I', Rev: 3, Len: 548
+4:145  0:000    2. 7E20F5A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:145  0:000    3. 7E20F5E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+4:145  0:000    4. 7E20F628: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1200
+4:145  0:000    5. 7E20FAD8: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48
+4:145  0:000    6. 7E20FB08: 'HPET', 'A M I', Rev: 1, Len: 56
+4:145  0:000    7. 7E20FB40: 'UEFI', 'RstScuO', Rev: 1, Len: 298
+4:145  0:000    8. 7E20FC70: 'PRAD', 'PRADTID', Rev: 2, Len: 190
+4:145  0:000    9. 7E20FD30: 'SSDT', 'CpuPm', Rev: 2, Len: 855216
+4:145  0:000    10. 7E2E09E0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:145  0:000    11. 7E2E0A18: 'UEFI', 'RstScuV', Rev: 1, Len: 92
+4:145  0:000    12. 7E2E0A78: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+4:145  0:000    13. 7E2E0BA8: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+4:145  0:000    14. 7E2E0DD8: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+4:145  0:000    15. 7E2E0E80: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+4:145  0:000    16. 7E2E0EB0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 360
