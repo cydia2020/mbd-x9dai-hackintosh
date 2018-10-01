@@ -1,6 +1,7 @@
-Hackintosh Installation Support Files for X9DAi motherboard with dual Xeon E5 2670 v2
+<br>Hackintosh Installation Support Files for X9DAi motherboard with dual Xeon E5 2670 v2
+<br>Clover only
 
-(10.13 to 10.13.6)
+For macOS 10.13 to 10.13.6
 
 The ACPI Folder is nesscary
 
